@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: darkcyan;
+    padding: 5px 0;
+}
+
+.box{
+    max-width: 700px;
+    height: 300%;
+    margin-top: 18%;
+    margin-left: 27%;
+    background-color: aliceblue;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: rgba(100,100,111,0.2) 0px 9px 30px 0px;
+    text-align: center;
+
+}
+
+.box h3,
+.box p,
+.box button{
+    margin-bottom: 10px;
+}
+
+.box p{
+    font-size: 25px;
+}
+.box button{
+    font-size: 30px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: aliceblue;
+    cursor: pointer;
+}
+.box button:hover{
+    color: cyan;
+    
+}
